@@ -1,0 +1,18 @@
+Sistem Pendukung Keputusan untuk penentuan mata pelajaran lintas minat
+Aktor : admin (username, password)
+Admin yang menjalankan guru BK / kurikulum
+
+Requirement :
+1. Admin dapat login ke sistem menggunakan username dan password
+2. Admin dapat mengelola data siswa (tambah, edit, hapus, detail). 
+   Atribut data siswa: nama, nis, kelas, nilai, lintasminat1, lintasminat2, lintasminat3
+3. Admin dapat mengelola data mapel lintas minat (tambah, edit, hapus)
+   Setiap mapel lintas minat memiliki kapasitas yang dibatasi
+   misalnya: 1 mapel lintas minat hanya berisi 40 siswa
+   Data Mapel Lintas Minat: Geografi, Ekonomi, B Inggris, B Jerman, Fisika, Kimia, Biologi
+4. Alur penentuan mapel lintas minat:
+   Setiap siswa memilih 3 mapel lintas minat, tapi hanya 2 yang terpilih
+   Apabila pilihan lintasminat 1, kelas belum memenuhi kapasitas, maka akan langsung terpilih
+   Tapi apabila kelas sudah melebihi kapasitas, maka diurutkan berdasarkan nilai, nilai yang terendah akan tereliminasi dan masuk pada pilihan kedua
+   Siswa MIPA hanya dapat memilih Geografi, Ekonomi, B Inggris, B Jerman
+   Siswa IPS hanya dapat memiliih Fisika, Kimia, Biologi, B Inggris, B Jerman
