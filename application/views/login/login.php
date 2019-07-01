@@ -16,17 +16,18 @@
   <!-- iCheck -->
   <link rel="stylesheet" href="<?=base_url('assets/AdminLTE/')?>/plugins/iCheck/square/blue.css">
   <!-- Google Font: Source Sans Pro -->
+
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?=base_url('assets/AdminLTE/')?>/index2.html"><b>Admin</b>LTE</a>
+    <a href="<?=base_url('assets/AdminLTE/')?>/index2.html"><b>Admin</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">Login Sebagai Admin</p>
 
       <form action="<?=base_url('assets/AdminLTE/')?>/index2.html" method="post">
         <div class="form-group has-feedback">
